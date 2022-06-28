@@ -12,6 +12,9 @@ repositories {
 dependencies {
     // https://mvnrepository.com/artifact/se.michaelthelin.spotify/spotify-web-api-java
     implementation ("se.michaelthelin.spotify:spotify-web-api-java:7.1.0")
+    implementation ("org.slf4j:slf4j-api:2.0.0-alpha1")
+    implementation ("org.slf4j:slf4j-log4j12:2.0.0-alpha1")
+    implementation ("org.apache.logging.log4j:log4j:2.14.1")
 }
 
 

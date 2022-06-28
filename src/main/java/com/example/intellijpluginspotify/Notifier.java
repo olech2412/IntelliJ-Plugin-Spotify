@@ -7,7 +7,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class Notifier {
 
-    public static void notifyError(@Nullable Project project,
+    public void notifyError(@Nullable Project project,
                                    String content) {
         NotificationGroupManager.getInstance()
                 .getNotificationGroup("Spotify Plugin")
@@ -15,7 +15,7 @@ public class Notifier {
                 .notify(project);
     }
 
-    public static void notifyInfo(@Nullable Project project,
+    public void notifyInfo(@Nullable Project project,
                                    String content) {
         NotificationGroupManager.getInstance()
                 .getNotificationGroup("Spotify Plugin")
@@ -23,7 +23,7 @@ public class Notifier {
                 .notify(project);
     }
 
-    public static void notifyWarning(@Nullable Project project,
+    public void notifyWarning(@Nullable Project project,
                                    String content) {
         NotificationGroupManager.getInstance()
                 .getNotificationGroup("Spotify Plugin")
