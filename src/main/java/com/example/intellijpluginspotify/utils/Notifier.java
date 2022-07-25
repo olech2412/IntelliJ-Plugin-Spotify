@@ -1,4 +1,4 @@
-package com.example.intellijpluginspotify;
+package com.example.intellijpluginspotify.utils;
 
 import com.intellij.notification.NotificationGroupManager;
 import com.intellij.notification.NotificationType;

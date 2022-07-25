@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.intellijpluginspotify.gui.Login">
+  <grid id="27dc6" binding="LoginPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="33" width="642" height="196"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ed8bc" class="javax.swing.JTextField" binding="usernameTextField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value=""/>
+          <text value=""/>
+          <toolTipText value="Username"/>
+        </properties>
+      </component>
+      <component id="3a229" class="javax.swing.JPasswordField" binding="passwortPasswordField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+          <toolTipText value="Passwort"/>
+        </properties>
+      </component>
+      <component id="9649f" class="javax.swing.JLabel" binding="Header">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="IntelliJ-Spotify Plugin"/>
+        </properties>
+      </component>
+      <component id="2b4a9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Username:"/>
+        </properties>
+      </component>
+      <component id="abaaf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Passwort:"/>
+        </properties>
+      </component>
+      <component id="78ce2" class="javax.swing.JButton" binding="close">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-853774"/>
+          <text value="Schließen"/>
+          <toolTipText value="Klicken um das Fenster zu schließen"/>
+        </properties>
+      </component>
+      <component id="7d7a7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="8" style="0"/>
+          <text value="Der README.md kann entnommen werden, wo die Anmeldedaten zu finden sind"/>
+        </properties>
+      </component>
+      <component id="e9c43" class="javax.swing.JButton" binding="login">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-788234"/>
+          <text value="Einloggen"/>
+          <toolTipText value="Klicken zum anmelden"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
