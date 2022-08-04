@@ -21,7 +21,7 @@ public class Login extends JFrame {
         setContentPane(LoginPanel);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("Spotify Login");
-        setSize(600, 300);
+        setSize(500, 300);
         setResizable(false);
 
         close.addActionListener(e -> setVisible(false));
