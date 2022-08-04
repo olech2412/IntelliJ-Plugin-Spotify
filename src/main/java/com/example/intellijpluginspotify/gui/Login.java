@@ -1,6 +1,7 @@
 package com.example.intellijpluginspotify.gui;
 
 import com.example.intellijpluginspotify.Account;
+import com.example.intellijpluginspotify.Authentication;
 import com.example.intellijpluginspotify.utils.Notifier;
 
 import javax.swing.*;
@@ -52,6 +53,8 @@ public class Login extends JFrame {
 
             Account account1 = (Account) objectInputStream.readObject();
             String encoded = Base64.getEncoder().encodeToString(account1.getPassword());
+
+            Authentication.authorizationCode_Sync();
         }catch (Exception e){
             JOptionPane.showMessageDialog(null, "Fehler aufgetreten: " + e.getMessage() + "" + e.getCause() + "\n" +
                     "Wahrscheinlich wurde die \"plugin.settings\" Datei manipuliert. Loeschen Sie die Datei und legen Sie ihren Account erneut an."
